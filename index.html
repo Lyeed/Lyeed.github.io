@@ -2,35 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
+    <meta name="description" content="Gautier Jousset website, alias Lyeed, French developper.">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
 	<link rel="stylesheet" type="text/css" href="styles.css">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<script defer src="https://kit.fontawesome.com/f32f65d257.js" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,600&display=swap" rel="stylesheet">
 	<title>Lyeed (Gautier Jousset)</title>
 </head>
 <body>
-    <section id="section-top-left" class="section">
-        <img id="image-witbe" alt="witbe" src="./assets/witbe.png" />
-        <h3 class="section-title">I work at<br><b><a class="link-external" target="_blank" href="http://www.witbe.net/">Witbe</a></b></h3>
-        <i class="fas fa-briefcase section-icon"></i>
-    </section>
-    <section id="section-top-right" class="section">
-        <i class="fas fa-certificate section-icon"></i>
-        <h3 class="section-title">I'm<br><b>graduated</b><br>from</h3>
-        <a class="link-external" target="_blank" href="https://www.epitech.eu"><img id="image-epitech" alt="epitech" src="./assets/epitech.png" /></a>
-    </section>
-    <img id="left-picture" src="./assets/coding1.png">
-	<main id="main">
+    <main id="main">
         <img id="self-image" alt="Gautier Jousset" src="./assets/self.jpg" />
-		<h1 id="name">
+        <h1 id="name">
             Gautier Jousset
             <br>
-            <small id="pseudo">Lyeed</small>
+            <small id="pseudo">@Lyeed</small>
             <br>
             <span id="developer">Developer</span>
         </h1>
         <div id="email">
-    		<a href class="link fas fa-at"></a>
+            <i class="fas fa-at"></i>
             <span>gautier</span>
             <span style="display: none">aaaa</span>
             <span>.</span>
@@ -43,24 +34,51 @@
             <span style="display: none">aaaa</span>
             <span>.com</span>
         </div>
-		<div id="links">
-			<a target="_blank" href="https://github.com/Lyeed" class="link fab fa-github"></a>
-			<a target="_blank" href="https://codepen.io/Lyeed" class="link fab fa-codepen"></a>
-		</div>
-        <span id="localisation">
+        <div id="links">
+            <a aria-label="Github" target="_blank" rel="noreferrer" href="https://github.com/Lyeed" class="link fab fa-github"></a>
+            <a aria-label="Codepen" target="_blank" rel="noreferrer" href="https://codepen.io/Lyeed" class="link fab fa-codepen"></a>
+            <a aria-label="Linkedin" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/gautier-jousset-29725220a" class="link fab fa-linkedin"></a>
+        </div>
+        <div id="localisation">
             <i class="fas fa-map-marker-alt"></i>
-            Paris, France
-        </span>
-	</main>
-    <img id="right-picture" src="./assets/coding2.png">
-    <section id="section-bottom-left" class="section">
-        <i class="fas fa-gamepad section-icon"></i>
-        <h3 class="section-title">I participate to<br><b><a class="link-external" target="_blank" href="https://edaly.fr">Projets Edaly</a></b><br>development</h3>
-        <img id="image-edaly" alt="edaly" src="./assets/edaly.png" />
+            &nbsp;Paris&nbsp;<span class="french-blue"></span><span class="french-white"></span><span class="french-red"></span>
+        </div>
+    </main>
+    <a target="_blank" rel="noreferrer" id="section-top-left" class="section" href="http://www.witbe.net/">
+        <div class="section-image"></div>
+        <div class="section-content">
+            <span class="section-icon">
+                <i class="fas fa-briefcase"></i>
+            </span>
+            <p class="section-paragraph">I work at <b>WITBE</b><br /><img id="image-witbe" width="106" height="96" alt="witbe" src="./assets/witbe.png" /></p>
+        </div>
     </section>
-    <section id="section-bottom-right" class="section">
-        <i class="far fa-lightbulb section-icon"></i>
-        <h3 class="section-title">Otherwise, I try to turn my <b>ideas</b> into<br><a class="link-external" target="_blank" href="https://github.com/Lyeed"><b>personal</b> or <b>collaborative projects</b></a>.</h3>
+    <a target="_blank" rel="noreferrer" id="section-top-right" class="section" href="https://www.epitech.eu">
+        <div class="section-image"></div>
+        <div class="section-content">
+            <span class="section-icon">
+                <i class="fas fa-certificate"></i>
+            </span>
+            <p class="section-paragraph">I'm graduated from <u><img id="image-epitech" width="180" height="66" alt="epitech" src="./assets/epitech.png" /></u></p>
+        </div>
+    </section>
+    <a target="_blank" rel="noreferrer" id="section-bottom-left" class="section" href="https://edaly.fr">
+        <div class="section-image"></div>
+        <div class="section-content">
+            <span class="section-icon">
+                <i class="fas fa-gamepad"></i>
+            </span>
+            <p class="section-paragraph">I participate to <u>Projets Edaly</u> development</p>
+        </div>
+    </section>
+    <a target="_blank" rel="noreferrer" id="section-bottom-right" class="section" href="https://github.com/Lyeed">
+        <div class="section-image"></div>
+        <div class="section-content">
+            <span class="section-icon">
+                <i class="fas fa-lightbulb"></i>
+            </span>
+            <p class="section-paragraph">Otherwise, I try to turn my <b>ideas</b> into <u>collaborative or personal projects</u>.</p>
+        </div>
     </section>
 	<script type="text/javascript" src="script.js"></script>
 </body>
