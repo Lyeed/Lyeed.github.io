@@ -7,3 +7,11 @@ const mouseMove = e => {
 };
 
 document.addEventListener('mousemove', mouseMove);
+
+document.getElementById("email").addEventListener("click", (event) => {
+    event.currentTarget.classList.add("copied");
+    navigator.clipboard.writeText("gautier.jousset@epitech.eu");
+    setTimeout(() => {
+        document.getElementById("email").classList.remove("copied");
+    }, 2000);
+});
